@@ -1,0 +1,411 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "icons-font";
+  src: url("../fonts/icons-font.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "icons-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+a {
+ color: #ff4d07;
+ text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.section {
+  position: relative;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+#fp-nav ul li a.active span {
+  background: #ff976e;
+}
+
+.icon-apple:before {
+  content: "F";
+}
+
+.icon-scroll-down:before {
+  color: #acacac;
+  content: "p";
+}
+
+.icon-facebook:before {
+  content: "\e04f";
+}
+.icon-twitter:before {
+  content: "\e114";
+}
+
+.separator {
+  margin: 12px auto;
+  width: 25px;
+}
+
+.separator__icon-orange,
+.separator__icon-white {
+  display: block;
+  width: 26px;
+  height: 21px;
+}
+
+.separator__icon-orange {
+  background: url(../img/chips-orange.svg) no-repeat;
+  background-size: 26px 21px;
+}
+
+.separator__icon-white {
+  background: url(../img/chips-white.svg) no-repeat;
+  background-size: 26px 21px;
+}
+
+.disabled {
+  opacity: 0.3;
+}
+
+.store {
+  margin: 40px 0;
+}
+
+.store__link {
+  background-color: #ff4d07;
+  color: #fff;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  vertical-align: top;
+  padding: 16px 20px;
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px 5px;
+  border-radius: 5px 5px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.release {
+  font-size: 10px;
+  color: #acacac;
+  letter-spacing: 0.2px;
+  margin: 10px 0;
+  font-weight: normal;
+  line-height: 14px;
+}
+
+/* Welcome */
+
+.download,
+.why-play,
+.welcome {
+  width: 45%;
+  min-width: 275px;
+}
+
+.welcome__title {
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 52px;
+  color: #ff4d07;
+  letter-spacing: 1.6px;
+  font-weight: 500;
+}
+
+.download__title,
+.welcome__text {
+  font-size: 28px;
+  line-height: 38px;
+  color: #333;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+}
+
+.game-monkey-icon {
+  width: 100px;
+  height: 100px;
+  background: url(../img/game-monkey-icon.png) no-repeat center center;
+  background-size: contain;
+  margin: 30px auto;
+}
+
+.download__copyrigth,
+.scroll-down {
+  text-align: center;
+  margin: 10px auto;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.scroll-down__text {
+  color: #acacac;
+  padding: 5px 0;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .scroll-down {
+      display: none;
+    }
+}
+
+/* Why play it */
+
+.third-parties__title,
+.puzzles__title,
+.why-play__title {
+  font-size: 32px;
+  line-height: 38px;
+  color: #333;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+}
+
+.third-parties__text,
+.download__text,
+.puzzles__text,
+.why-play__text {
+  font-size: 18px;
+  line-height: 28px;
+  color: #666;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  margin: 0 auto;
+}
+
+.why-play__image-top,
+.why-play__image-middle,
+.why-play__image-bottom {
+  width: 450px;
+  height: 223px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.why-play__image-top {
+  width: 100%;
+  bottom: 30%;
+  position: absolute;
+  z-index: -2;
+  background: url(../img/why-play-top.png) no-repeat center center;
+  background-size: contain;
+}
+
+.why-play__image-middle {
+  width: 100%;
+  bottom: 15%;
+  position: absolute;
+  z-index: -1;
+  background: url(../img/why-play-middle.png) no-repeat center center;
+  background-size: contain;
+}
+
+.why-play__image-bottom {
+  width: 100%;
+  margin: 205px auto 0;
+  background: url(../img/why-play-bottom.png) no-repeat center center;
+  background-size: contain;
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .why-play__image-bottom {
+      margin: 155px auto 0;
+    }
+}
+
+/* puzzles */
+
+.bg-color {
+  background-color: #ff4d07;
+}
+
+.puzzles {
+  width: 65%;
+  min-width: 350px;
+}
+
+.puzzles__title,
+.puzzles__text {
+  color: #fff;
+}
+
+.puzzles__wrapper-outer {
+  position: relative;
+  float: right;
+  left: -50%;
+}
+
+.puzzles__wrapper {
+  position: relative;
+  left: 50%;
+  margin-top: 20px;
+}
+
+.puzzle__monkey {
+  width: 106px;
+  height: 106px;
+  float: left;
+  margin: 10px 0;
+}
+
+.puzzle_picture {
+  width: 75px;
+  height: 75px;
+  background-color: #ff4d07;
+  border: 1px solid #fff;
+  -webkit-border-radius: 56px;
+  -moz-border-radius: 56px;
+  border-radius: 56px;
+}
+
+.puzzle__title {
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 0.2px;
+  margin: 10px 0;
+  font-style: italic;
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .puzzles__title {
+      margin-top: 50px;
+    }
+    .puzzles__text {
+      width: 250px;
+    }
+}
+
+/* Download */
+
+.game-fairy-icon {
+  width: 100px;
+  height: 120px;
+  background: url(../img/game-fairy-icon.png) no-repeat center center;
+  background-size: contain;
+  margin: 30px auto;
+}
+
+.download__copyrigth {
+  height: 25px;
+  font-size: 12px;
+  color: #acacac;
+  letter-spacing: 0.2px;
+}
+
+.download__text {
+  font-size: 14px;
+  line-height: 22px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.download__social {
+  font-size: 24px;
+  margin: 20px auto 0;
+}
+.download__social a {
+  text-decoration: none;
+}
+
+.download__nav {
+  font-size: 14px;
+  margin: 60px auto 0;
+  height: 60px;
+  text-transform: capitalize;
+}
+
+/* third-parties__title */
+
+.third-parties {
+  margin-bottom: 60px;
+}
+
+.third-parties__title {
+
+}
+
+.third-parties__text {
+  margin: 20px 0;
+}
+
+.third-parties__list {
+  margin: 30px 0;
+}
+
+.third-parties__list li {
+  display: block;
+  padding: 10px 0;
+}
+
+.third-parties__list li a {
+  text-decoration: none;
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .download__social,
+    .download__text {
+      display: none;
+    }
+}

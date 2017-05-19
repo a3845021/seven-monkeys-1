@@ -2,7 +2,7 @@
 
 A Poker Puzzle Game Based On [Cocos2dx-3.X](http://www.cocos2d-x.org/) Engine.
 
-The game employs a variety of puzzles to help the player to understand the rules and mathematics of Texas Hold'em Poker. There are seven puzzles with three levels of difficulty each, they are about:
+The game uses a variety of puzzles to help the player to understand the rules and mathematics of Texas Hold'em Poker. There are seven puzzles with three levels of difficulty each, they are about:
 
 - Poker Hands
 - Poker Positions
@@ -12,7 +12,7 @@ The game employs a variety of puzzles to help the player to understand the rules
 - Pot Odds
 - PreFlop Strategy
 
-Source Code on [cocos2d-x](https://github.com/aitorfernandez/seven-monkeys/tree/master/cocos2d-x) folder. _Only upload the code_
+Source Code on [cocos2d-x](https://github.com/aitorfernandez/seven-monkeys/tree/master/cocos2d-x) folder. _(Only upload the code)._
 
 <p align="center">
   <img src="img/seven-monkeys-main.png" alt="Main Scene"/>

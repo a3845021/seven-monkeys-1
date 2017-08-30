@@ -12,7 +12,7 @@ The game uses a variety of puzzles to help the player to understand the rules an
 - Pot Odds
 - PreFlop Strategy
 
-Source Code on [cocos2d-x](https://github.com/aitorfernandez/seven-monkeys/tree/master/cocos2d-x) folder. _(Only upload the code)._
+Source Code on [cocos2d-x](https://github.com/aitorfernandez/seven-monkeys/tree/master/source) folder.
 
 <p align="center">
   <img src="img/seven-monkeys-main.png" alt="Main Scene"/>
